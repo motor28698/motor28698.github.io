@@ -56,11 +56,9 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/51138671" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-</head>
 
-<body>
-        <script async src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
-        <script async type="text/javascript">
+<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+        <script type="text/javascript">
             var map;  
             DG.then(function () {
                 map = DG.map('map', {
@@ -69,8 +67,10 @@
                 });
                 DG.popup().setLatLng(map.getCenter()).setContent('<b>Автозапчасти<br>"MY-CAR96.RU"</b><br><b style="color:lightgray;"><br>Тел. +7(906) 800-71-67</b><br><br>Пн-Сб 10.00-18.00<br><br><p style="color:yellow;">Екатеринбург, ул.Восточная, д.8а</p>').openOn(map);
             });
-        </script>
+</script>
+</head>
 
+<body>
         <div class="call-back-btn" id="btn-callback-phone-icon">
                 <div class="pulse1"></div>
                 <div class="pulse2"></div>
