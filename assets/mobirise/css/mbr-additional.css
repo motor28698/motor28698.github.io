@@ -2728,7 +2728,7 @@ a.simple-text:hover {
     }
 
     .start-vin-form {
-        border: 5px solid #378E5B;
+        /* border: 5px solid #378E5B; */
         border-radius: 8px;
         padding: 25px 25px 25px 25px;
         background-color: rgba(255, 255, 255, 0.9);
@@ -2784,7 +2784,7 @@ a.simple-text:hover {
     }
 
     .start-vin-form {
-        border: 5px solid #378E5B;
+        /* border: 5px solid #378E5B; */
         border-radius: 8px;
         padding: 25px 25px 25px 25px;
         background-color: rgba(255, 255, 255, 0.9);
