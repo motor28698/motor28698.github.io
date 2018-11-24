@@ -5337,8 +5337,7 @@
                     <input type="hidden" data-form-email="true" value="RY9yu+PIgZbIHmaBiET9Q4MbCBxkwqCPqkWLWC6ELtZKcg86bCmhg+N0mrMlpb0AH0eFuOHjw3N/6CjmzZCjQd1ukLYt3sEHwWabXarWLoETlh7JZbU6SGJCTCTo3d3b">
                     <div class="row">
                         <div class="col-md-6">
-                            <div data-for="year">
-                                    <div class="input-group-sm form-group">
+                                    <div class="input-group-sm form-group" data-for="year">
                                         <select class="form-control" name="year" data-form-field="Год">
                                             <option selected>Год выпуска</option>
                                             <option>1990</option>
@@ -5371,133 +5370,101 @@
                                             <option>2017</option>
                                         </select>
                                     </div>
-                                </div>
 
-                                <div data-for="model">
-                                        <div class="form-group input-group input-group-sm">
-                                            <input type="text" class="form-control px-3" name="model" data-form-field="Модель" placeholder="Модель">
-                                        </div>
-                                </div>
+                                    <div class="input-group-sm form-group" data-for="brand">
+                                        <select class="form-control" name="brand" data-form-field="Марка">
+                                            <option selected>Марка</option>
+                                            <option >Volvo</option>
+                                            <option >Volkswagen</option>
+                                            <option >Toyota</option>
+                                            <option >Suzuki</option>
+                                            <option >Subaru</option>
+                                            <option >SsangYong</option>
+                                            <option >Skoda</option>
+                                            <option >SEAT</option>
+                                            <option >Renault</option>
+                                            <option >Porsche</option>
+                                            <option >Peugeot</option>
+                                            <option >Opel</option>
+                                            <option >Nissan</option>
+                                            <option >Mitsubishi</option>
+                                            <option >Mercedes-Benz</option>
+                                            <option >Mazda</option>
+                                            <option >Lexus</option>
+                                            <option >LandRover</option>
+                                            <option >Kia</option>
+                                            <option >Jeep</option>
+                                            <option >Jaguar</option>
+                                            <option >Infiniti</option>
+                                            <option >Hyundai</option>
+                                            <option >Honda</option>
+                                            <option >Ford</option>
+                                            <option >Fiat</option>
+                                            <option >Dodge</option>
+                                            <option >Daewoo</option>
+                                            <option >Citroen</option>
+                                            <option >Chrysler</option>
+                                            <option >Chevrolet</option>
+                                            <option >Cadillac</option>
+                                            <option >BMW</option>
+                                            <option >Audi</option>
+                                            <option >Другая</option>
+                                        </select>
+                                    </div>
 
-                                <div data-for="kpp">
-                                        <div class="input-group-sm form-group">
-                                            <select class="form-control" name="kpp" data-form-field="Коробка">
-                                                <option selected>Коробка</option>
-                                                <option>Механическая</option>
-                                                <option>Автоматическая</option>
-                                                <option>Робот</option>
-                                                <option>Вариатор</option>
-                                            </select>
-                                        </div>
-                                </div>
-
-                                <div data-for="toplivo">
-                                        <div class="input-group-sm form-group">
-                                            <select class="form-control" name="toplivo" data-form-field="Топливо">
-                                                <option selected>Топливо</option>
-                                                <option >Безин</option>
-                                                <option >Дизель</option>
-                                                <option >Гибрид</option>
-                                            </select>
-                                        </div>
-                                </div>
-
-                                <div data-for="markirovka">
-                                        <div class="form-group input-group input-group-sm">
-                                            <input type="text" class="form-control px-3" name="markirovka" data-form-field="Маркировка" placeholder="Маркировка">
-                                        </div>
-                                </div>
+                                    <div class="input-group-sm form-group" data-for="kpp">
+                                        <select class="form-control" name="kpp" data-form-field="Коробка">
+                                            <option selected>Коробка</option>
+                                            <option>Механическая</option>
+                                            <option>Автоматическая</option>
+                                            <option>Робот</option>
+                                            <option>Вариатор</option>
+                                        </select>
+                                    </div>
                                 
+                                    <div class="input-group-sm form-group" data-for="toplivo">
+                                        <select class="form-control" name="toplivo" data-form-field="Топливо">
+                                            <option selected>Топливо</option>
+                                            <option >Безин</option>
+                                            <option >Дизель</option>
+                                            <option >Гибрид</option>
+                                        </select>
+                                    </div>
 
-                                <div data-for="phoneUser">
-                                        <div class="form-group input-group input-group-sm">
-                                            <input type="text" class="form-control px-3" name="phoneUser" data-form-field="Телефон" placeholder="Номер телефона *" required id="inputNumber7" required onclick="$('#inputNumber7').val('+7');">
-                                        </div>
-                                </div>
+                                    <div class="form-group input-group input-group-sm" data-for="phone">
+                                        <input type="text" class="form-control px-3" name="phone" data-form-field="Телефон" placeholder="Номер телефона *" required id="inputNumber7" required onclick="$('#inputNumber7').val('+7');">
+                                    </div>
                         </div>
 
                         <div class="col-md-6">
-                                <div data-for="brand">
-                                        <div class="input-group-sm form-group">
-                                            <select class="form-control" name="brand" data-form-field="Марка">
-                                                <option selected>Марка</option>
-                                                <option >Volvo</option>
-                                                <option >Volkswagen</option>
-                                                <option >Toyota</option>
-                                                <option >Suzuki</option>
-                                                <option >Subaru</option>
-                                                <option >SsangYong</option>
-                                                <option >Skoda</option>
-                                                <option >SEAT</option>
-                                                <option >Renault</option>
-                                                <option >Porsche</option>
-                                                <option >Peugeot</option>
-                                                <option >Opel</option>
-                                                <option >Nissan</option>
-                                                <option >Mitsubishi</option>
-                                                <option >Mercedes-Benz</option>
-                                                <option >Mazda</option>
-                                                <option >Lexus</option>
-                                                <option >LandRover</option>
-                                                <option >Kia</option>
-                                                <option >Jeep</option>
-                                                <option >Jaguar</option>
-                                                <option >Infiniti</option>
-                                                <option >Hyundai</option>
-                                                <option >Honda</option>
-                                                <option >Ford</option>
-                                                <option >Fiat</option>
-                                                <option >Dodge</option>
-                                                <option >Daewoo</option>
-                                                <option >Citroen</option>
-                                                <option >Chrysler</option>
-                                                <option >Chevrolet</option>
-                                                <option >Cadillac</option>
-                                                <option >BMW</option>
-                                                <option >Audi</option>
-                                                <option >Другая</option>
-                                            </select>
-                                        </div>
-                                </div>
-
-                                <div data-for="engine">
-                                    <div class="form-group input-group input-group-sm">
+                                    <div class="form-group input-group input-group-sm" data-for="engine">
                                         <input type="text" class="form-control px-3" name="engine" data-form-field="Объем двигателя" placeholder="Объем(двигателя)">
                                     </div>
-                                </div>
 
-                                <div data-for="privod">
-                                        <div class="input-group-sm form-group">
-                                            <select class="form-control" name="privod" data-form-field="Привод">
-                                                <option selected>Привод</option>
-                                                <option>Передний</option>
-                                                <option>Задний</option>
-                                                <option>Полный</option>
-                                            </select>
-                                        </div>
-                                </div>
+                                    <div class="input-group-sm form-group" data-for="privod">
+                                        <select class="form-control" name="privod" data-form-field="Привод">
+                                            <option selected>Привод</option>
+                                            <option>Передний</option>
+                                            <option>Задний</option>
+                                            <option>Полный</option>
+                                        </select>
+                                    </div>
 
-                                <div data-for="oborud">
-                                    <div class="input-group-sm form-group">
+                                    <div class="input-group-sm form-group" data-for="oborud">
                                         <select class="form-control" name="oborud" data-form-field="Оборудование(навесное)">
                                             <option selected>С навесным оборудованием</option>
                                             <option >Да</option>
                                             <option >Нет</option>
                                         </select>
                                     </div>
-                                </div>
 
-                                <div data-for="nameUser">
-                                        <div class="form-group input-group input-group-sm">
-                                            <input type="text" class="form-control px-3" name="nameUser" data-form-field="Имя" placeholder="Ваше имя">
-                                        </div>
-                                </div>
+                                    <div class="form-group input-group input-group-sm" data-for="name">
+                                        <input type="text" class="form-control px-3" name="name" data-form-field="Имя" placeholder="Ваше имя">
+                                    </div>
 
-                                <div data-for="emailUser">
-                                        <div class="form-group input-group input-group-sm">
-                                            <input type="text" class="form-control px-3" name="emailUser" data-form-field="Почта" placeholder="Электронная почта">
-                                        </div>
-                                </div>
+                                    <div class="form-group input-group input-group-sm" data-for="email">
+                                        <input type="text" class="form-control px-3" name="email" data-form-field="Почта" placeholder="Электронная почта">
+                                    </div>
                         </div>
                     </div>
                     
