@@ -2744,6 +2744,14 @@ a.simple-text:hover {
         max-height: 2000px !important;
         height: auto !important;
     }
+
+    .carousel-controls {
+        display: none;
+    }
+
+    .cid-r7EQNJKius p.display-7 {
+        font-size: 0.9rem !important;
+    }
 }
 
 @media(min-width:768px) {
